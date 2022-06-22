@@ -23,7 +23,7 @@
     <published>2022-06-22T18:25:14.000Z</published>
     <updated>2022-06-23T18:25:14.000Z</updated>
     
-    <content type="html"><![CDATA[<p>文章描述<span id="more"></span><br>正文开始：</p>]]></content>
+    <content type="html"><![CDATA[<p>文章描述<span id="more"></span><br><img src="https://cdn.jsdelivr.net/gh/hwame/pics@main/avatar.jpg?200x200" alt="avatar"><br>正文开始：</p>]]></content>
     
     
     <summary type="html">&lt;p&gt;文章描述</summary>
