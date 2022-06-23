@@ -6,7 +6,7 @@
   <link href="https://www.solen.ml/atom.xml" rel="self"/>
   
   <link href="https://www.solen.ml/"/>
-  <updated>2022-06-23T17:57:51.373Z</updated>
+  <updated>2022-06-23T18:40:56.778Z</updated>
   <id>https://www.solen.ml/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>10 useful vim shortcuts</title>
+    <link href="https://www.solen.ml/2022/06/24/10-useful-vim-shortcuts/"/>
+    <id>https://www.solen.ml/2022/06/24/10-useful-vim-shortcuts/</id>
+    <published>2022-06-23T18:30:52.000Z</published>
+    <updated>2022-06-23T18:40:56.778Z</updated>
+    
+    <content type="html"><![CDATA[<p>10 useful vim shortcuts!<span id="more"></span><br>Reprinted from <a href="https://catonmat.net/top-10-vim-shortcuts">https://catonmat.net/top-10-vim-shortcuts</a></p><h2 id="10-useful-vim-shortcuts"><a href="#10-useful-vim-shortcuts" class="headerlink" title="10 useful vim shortcuts"></a>10 useful vim shortcuts</h2><p>I use these 10 vim shortcuts daily.</p><h3 id="gi"><a href="#gi" class="headerlink" title="gi"></a>gi</h3><p>Typing gi in normal mode moves the cursor to the last place you were editing and instantly puts you in insert mode.</p><h3 id="Ctrl-o-and-Ctrl-i"><a href="#Ctrl-o-and-Ctrl-i" class="headerlink" title="Ctrl+o and Ctrl+i"></a>Ctrl+o and Ctrl+i</h3><p>In normal mode, jumps to the previous (Ctrl+o) or next (Ctrl+i) place where cursor recently has been.</p><h3 id="Ctrl-a-and-Ctrl-z"><a href="#Ctrl-a-and-Ctrl-z" class="headerlink" title="Ctrl+a and Ctrl+z"></a>Ctrl+a and Ctrl+z</h3><p>In normal mode, increment and decrement the number under the cursor. Additionally, the speeddating vim plugin makes these two shortcuts more powerful and you can also increment and decrement calendar dates under the cursor.</p><h3 id="Ctrl-e-and-Ctrl-y-in-normal-mode"><a href="#Ctrl-e-and-Ctrl-y-in-normal-mode" class="headerlink" title="Ctrl+e and Ctrl+y in normal mode"></a>Ctrl+e and Ctrl+y in normal mode</h3><p>In normal mode, scroll the current buffer one line up (Ctrl+e) or down (Ctrl+y).</p><h3 id="Ctrl-e-and-Ctrl-y-in-insert-mode"><a href="#Ctrl-e-and-Ctrl-y-in-insert-mode" class="headerlink" title="Ctrl+e and Ctrl+y in insert mode"></a>Ctrl+e and Ctrl+y in insert mode</h3><p>In insert mode, copy text character-by-character from the line below (Ctrl+e) or line above (Ctrl+y).</p><h3 id="and"><a href="#and" class="headerlink" title="{ and }"></a>{ and }</h3><p>In normal mode, go to previous/next paragraph.</p><h3 id="gt-gt-and-lt-lt"><a href="#gt-gt-and-lt-lt" class="headerlink" title="&gt;&gt; and &lt;&lt;"></a>&gt;&gt; and &lt;&lt;</h3><p>In normal or visual mode, shift the line (or selection) one indent to the right (&gt;&gt;) or left (&lt;&lt;).</p><h3 id="Ctrl-n-and-Ctrl-p"><a href="#Ctrl-n-and-Ctrl-p" class="headerlink" title="Ctrl+n and Ctrl+p"></a>Ctrl+n and Ctrl+p</h3><p>In insert mode, complete the current word under the cursor from the word following it (Ctrl+n) or words preceding it (Ctrl+p).</p><h3 id="Ctrl-j"><a href="#Ctrl-j" class="headerlink" title="Ctrl+j"></a>Ctrl+j</h3><p>In insert mode, join the current line with the next line.</p><h3 id="zz-two-lowercase-z’s-in-normal-mode"><a href="#zz-two-lowercase-z’s-in-normal-mode" class="headerlink" title="zz (two lowercase z’s in normal mode)"></a>zz (two lowercase z’s in normal mode)</h3><p>Center the buffer so that the current line you’re editing is in the middle of the screen.</p><h3 id="ZZ-two-capital-Z’s-in-normal-mode"><a href="#ZZ-two-capital-Z’s-in-normal-mode" class="headerlink" title="ZZ (two capital Z’s in normal mode)"></a>ZZ (two capital Z’s in normal mode)</h3><p>In normal mode, same as :wq!. Saves and exits vim.</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;10 useful vim shortcuts!</summary>
+    
+    
+    
+    <category term="web" scheme="https://www.solen.ml/categories/web/"/>
+    
+    
+    <category term="Linux" scheme="https://www.solen.ml/tags/Linux/"/>
+    
+  </entry>
   
   <entry>
     <title>备注一下</title>
