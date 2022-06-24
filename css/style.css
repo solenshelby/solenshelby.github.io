@@ -27,7 +27,7 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 html {
-  font-family: sans-serif;
+  font-family:  sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -273,7 +273,7 @@ input,
 button,
 select,
 textarea {
-  font-family: inherit;
+  font-family: 'Times New Roman', serif, inherit;
   font-size: inherit;
   line-height: inherit;
 }
@@ -373,7 +373,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: inherit;
+  font-family: Georgia, Cambria, 'Times New Roman', serif, inherit;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -2943,7 +2943,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "PingHei","PingFang SC",Helvetica Neue,"Work Sans","Hiragino Sans GB","Microsoft YaHei",SimSun,sans-serif;
+  font-family:  "PingHei","PingFang SC",Helvetica Neue,"Work Sans","Hiragino Sans GB","Microsoft YaHei",SimSun,sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -3260,7 +3260,7 @@ body {
 
 body {
   padding-right: 0 !important;
-  font-family: "PingHei","PingFang SC",Helvetica Neue,"Work Sans","Hiragino Sans GB","Microsoft YaHei",SimSun,sans-serif;
+  font-family:   'Times New Roman', serif, "PingHei","PingFang SC",Helvetica Neue,"Work Sans","Hiragino Sans GB","Microsoft YaHei",SimSun,sans-serif;
   font-size: 14px;
   line-height: 1.57143;
   color: #333333;
@@ -5550,7 +5550,7 @@ code {
   text-shadow: 0 1px #fff;
   padding: 0.2em 0.4em;
   margin: 0 0.3em;
-  color: #FF4500;
+  color: #d75120;
   background: #f0FFFF;
   border-radius: 3px;
   font-size: 85%;
@@ -6412,7 +6412,7 @@ body.no-sidebar .sidebar {
 }
 
 .article-header {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .article-footer {
@@ -6719,7 +6719,7 @@ body.okayNav-loaded {
 }
 
 @font-face {
-  font-family: "socialshare";
+  font-family:  "socialshare";
   src: url("../fonts/iconfont.eot");
   /* IE9*/
   src: url("../fonts/iconfont.eot?#iefix") format("embedded-opentype"),url("../fonts/iconfont.woff") format("woff"),url("../fonts/iconfont.ttf") format("truetype"),url("../fonts/iconfont.svg#iconfont") format("svg");
@@ -6941,7 +6941,7 @@ body.okayNav-loaded {
 
 .donate-box .donate-head:before,
 .donate-box .donate-head:after {
-  font-family: Arial,Helvetica,sans-serif;
+  font-family: 'Times New Roman', serif, Arial,Helvetica,sans-serif;
   background: none;
   width: 0px;
   height: 0px;
@@ -7031,7 +7031,7 @@ body.okayNav-loaded {
   box-sizing: border-box;
   padding: 12px 28px 12px 20px;
   border-bottom: 1px solid #e2e2e2;
-  font-family: "Microsoft Yahei Light","Microsoft Yahei",Helvetica,Arial,sans-serif;
+  font-family:  'Times New Roman', serif, "Microsoft Yahei Light","Microsoft Yahei",Helvetica,Arial,sans-serif;
 }
 
 .ins-close {
