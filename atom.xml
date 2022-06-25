@@ -6,7 +6,7 @@
   <link href="https://www.solen.ml/atom.xml" rel="self"/>
   
   <link href="https://www.solen.ml/"/>
-  <updated>2022-06-23T18:47:58.964Z</updated>
+  <updated>2022-06-25T17:33:33.891Z</updated>
   <id>https://www.solen.ml/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>jdie</title>
+    <link href="https://www.solen.ml/2022/06/26/jdie/"/>
+    <id>https://www.solen.ml/2022/06/26/jdie/</id>
+    <published>2022-06-25T17:32:21.000Z</published>
+    <updated>2022-06-25T17:33:33.891Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是一个介绍<span id="more"></span><br>正文开始：</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;这是一个介绍</summary>
+    
+    
+    
+    <category term="photo" scheme="https://www.solen.ml/categories/photo/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>10 useful vim shortcuts</title>
