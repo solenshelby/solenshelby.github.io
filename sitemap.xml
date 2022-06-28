@@ -295,13 +295,6 @@
   </url>
   
   <url>
-    <loc>https://www.solen.ml/tags/%E6%A0%87%E7%AD%BE/</loc>
-    <lastmod>2022-06-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.solen.ml/tags/%E6%A0%87%E7%AD%BE-%E6%96%B0%E7%9A%84%E6%A0%87%E7%AD%BE-%E6%A0%87%E7%AD%BE%E6%B5%8B%E8%AF%95-%E6%A0%87%E7%AD%BE1/</loc>
     <lastmod>2022-06-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -309,14 +302,7 @@
   </url>
   
   <url>
-    <loc>https://www.solen.ml/tags/%E6%A0%87%E7%AD%BE%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2022-06-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.solen.ml/tags/blog/</loc>
+    <loc>https://www.solen.ml/tags/%E6%A0%87%E7%AD%BE/</loc>
     <lastmod>2022-06-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -337,6 +323,13 @@
   </url>
   
   <url>
+    <loc>https://www.solen.ml/tags/%E6%A0%87%E7%AD%BE%E6%B5%8B%E8%AF%95/</loc>
+    <lastmod>2022-06-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.solen.ml/tags/xinde-biaoqian/</loc>
     <lastmod>2022-06-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -345,6 +338,13 @@
   
   <url>
     <loc>https://www.solen.ml/tags/biaqoa/</loc>
+    <lastmod>2022-06-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.solen.ml/tags/blog/</loc>
     <lastmod>2022-06-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -367,13 +367,6 @@
   </url>
   
   <url>
-    <loc>https://www.solen.ml/categories/photo1/</loc>
-    <lastmod>2022-06-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.solen.ml/categories/photo/</loc>
     <lastmod>2022-06-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -381,7 +374,7 @@
   </url>
   
   <url>
-    <loc>https://www.solen.ml/categories/Hexo/</loc>
+    <loc>https://www.solen.ml/categories/photo1/</loc>
     <lastmod>2022-06-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -410,6 +403,13 @@
   
   <url>
     <loc>https://www.solen.ml/categories/xinde/</loc>
+    <lastmod>2022-06-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.solen.ml/categories/Hexo/</loc>
     <lastmod>2022-06-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
