@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+  <meta charset="utf-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  <!-- 谷歌收录 -->
+  <meta name="google-site-verification" content="IKbVe_quFnRAYSzDLm2zpISXTMCEZ4jafYE6A0aakvg" />
+  <!-- Color theme for statusbar -->
+  <meta name="theme-color" content="#000000" />
+  <!-- 强制页面在当前窗口以独立页面显示,防止别人在框架里调用页面 -->
+  <meta http-equiv="window-target" content="_top" />
+  
+  
+  <title>黑马程序员HTML笔记 | Solen&#39;blog</title>
+  <meta name="description" content="摘要：学习黑马前端的笔记，课程学习请访问B站黑马程序员pink老师前端入门教程">
+<meta property="og:type" content="article">
+<meta property="og:title" content="黑马程序员HTML笔记">
+<meta property="og:url" content="https://www.solen.ml/2022/06/28/heima-html-note/index.html">
+<meta property="og:site_name" content="Solen&#39;blog">
+<meta property="og:description" content="摘要：学习黑马前端的笔记，课程学习请访问B站黑马程序员pink老师前端入门教程">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://www.solen.ml/2022/06/28/heima-html-note/HTML%E5%AD%A6%E4%B9%A0%205fb680bc5a114c5381f1565e33ebca11/HTML%E9%A1%B5%E9%9D%A2%E5%9F%BA%E6%9C%AC%E7%BB%93%E6%9E%84%E6%A0%87%E7%AD%BE.png">
+<meta property="og:image" content="https://www.solen.ml/2022/06/28/heima-html-note/HTML%E5%AD%A6%E4%B9%A0%205fb680bc5a114c5381f1565e33ebca11/html%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6.png">
+<meta property="og:image" content="https://www.solen.ml/2022/06/28/heima-html-note/HTML%E5%AD%A6%E4%B9%A0%205fb680bc5a114c5381f1565e33ebca11/%E8%A1%A8%E6%A0%BC%E6%A0%87%E7%AD%BE.png">
+<meta property="og:image" content="https://www.solen.ml/2022/06/28/heima-html-note/HTML%E5%AD%A6%E4%B9%A0%205fb680bc5a114c5381f1565e33ebca11/%E5%88%97%E8%A1%A8%E6%A0%87%E7%AD%BE.png">
+<meta property="article:published_time" content="2022-06-27T17:05:27.000Z">
+<meta property="article:modified_time" content="2022-06-27T18:51:05.771Z">
+<meta property="article:author" content="Solen">
+<meta property="article:tag" content="HTML">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://www.solen.ml/2022/06/28/heima-html-note/HTML%E5%AD%A6%E4%B9%A0%205fb680bc5a114c5381f1565e33ebca11/HTML%E9%A1%B5%E9%9D%A2%E5%9F%BA%E6%9C%AC%E7%BB%93%E6%9E%84%E6%A0%87%E7%AD%BE.png">
+  <!-- Canonical links -->
+  <link rel="canonical" href="https://www.solen.ml/2022/06/28/heima-html-note/index.html">
+  
+    <link rel="alternate" href="true" title="Solen&#39;blog" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    <link href="//cdn.jsdelivr.net/npm/katex@0.9.0/dist/katex.min.css" rel="stylesheet">
+  
+  
+  
+    <link href="//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.3.5/dist/jquery.fancybox.min.css" rel="stylesheet">
+  
+  
+<meta name="generator" content="Hexo 6.2.0"></head>
+
+
+<script src="https://cdn.jsdelivr.net/gh/bobcn/hexo_resize_image.js@master/hexo_resize_image.js"></script>
+<body class="main-center" itemscope itemtype="http://schema.org/WebPage">
+  <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+  <div class="slimContent">
+    <div class="navbar-header">
+      
+      
+      <div class="profile-block text-center">
+        <a id="avatar" href="https://github.com/solenshelby" target="_blank">
+          <img class="img-circle img-rotate" src="/images/avatar.jpg" width="200" height="200">
+        </a>
+        <h2 id="name" class="hidden-xs hidden-sm">Solen</h2>
+        <h3 id="title" class="hidden-xs hidden-sm hidden-md">Web Developer Beginner</h3>
+        <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i> Hangzhou-Zhejiang</small>
+      </div>
+      
+      <div class="search" id="search-form-wrap">
+
+    <form class="search-form sidebar-form">
+        <div class="input-group">
+            <input type="text" class="search-form-input form-control" placeholder="Search" />
+            <span class="input-group-btn">
+                <button type="submit" class="search-form-submit btn btn-flat" onclick="return false;"><i class="icon icon-search"></i></button>
+            </span>
+        </div>
+    </form>
+    <div class="ins-search">
+  <div class="ins-search-mask"></div>
+  <div class="ins-search-container">
+    <div class="ins-input-wrapper">
+      <input type="text" class="ins-search-input" placeholder="Type something..." x-webkit-speech />
+      <button type="button" class="close ins-close ins-selectable" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+    </div>
+    <div class="ins-section-wrapper">
+      <div class="ins-section-container"></div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+      <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+      <ul class="nav navbar-nav main-nav menu-highlight">
+        
+        
+        <li class="menu-item menu-item-home">
+          <a href="/.">
+            
+            <i class="icon icon-home-fill"></i>
+            
+            <span class="menu-title">Home</span>
+          </a>
+        </li>
+        
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives">
+            
+            <i class="icon icon-archives-fill"></i>
+            
+            <span class="menu-title">Archives</span>
+          </a>
+        </li>
+        
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories">
+            
+            <i class="icon icon-folder"></i>
+            
+            <span class="menu-title">Categories</span>
+          </a>
+        </li>
+        
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags">
+            
+            <i class="icon icon-tags"></i>
+            
+            <span class="menu-title">Tags</span>
+          </a>
+        </li>
+        
+        
+        <li class="menu-item menu-item-resource">
+          <a href="/resource">
+            
+            <i class="icon icon-hourglass"></i>
+            
+            <span class="menu-title">Resource</span>
+          </a>
+        </li>
+        
+        
+        <li class="menu-item menu-item-gallery">
+          <a href="/gallery">
+            
+            <i class="icon icon-folder-open"></i>
+            
+            <span class="menu-title">Gallery</span>
+          </a>
+        </li>
+        
+        
+        <li class="menu-item menu-item-links">
+          <a href="/links">
+            
+            <i class="icon icon-friendship"></i>
+            
+            <span class="menu-title">Links</span>
+          </a>
+        </li>
+        
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about">
+            
+            <i class="icon icon-cup-fill"></i>
+            
+            <span class="menu-title">About</span>
+          </a>
+        </li>
+        
+      </ul>
+      
+	
+    <ul class="social-links">
+    	
+        <li><a href="https://github.com/solenshelby" target="_blank" title="Github" data-toggle=tooltip data-placement=top><i class="icon icon-github"></i></a></li>
+        
+        <li><a href="https://twitter.com/SolenShelby" target="_blank" title="Twitter" data-toggle=tooltip data-placement=top><i class="icon icon-twitter"></i></a></li>
+        
+        <li><a href="https://stackoverflow.com/users/14040298/solen-shelby" target="_blank" title="Stackoverflow" data-toggle=tooltip data-placement=top><i class="icon icon-stackoverflow"></i></a></li>
+        
+        <li><a href="https://www.zhihu.com/people/solenshelby" target="_blank" title="Zhihu" data-toggle=tooltip data-placement=top><i class="icon icon-zhihu"></i></a></li>
+        
+        <li><a href="/atom.xml" target="_blank" title="Rss" data-toggle=tooltip data-placement=top><i class="icon icon-rss"></i></a></li>
+        
+    </ul>
+
+    </nav>
+  </div>
+</header>
+
+  
+    <aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    
+      <div class="widget">
+    <h3 class="widget-title">
+        <i  class="icon icon-stackexchange"></i>
+        Board
+        
+    </h3>
+
+    <div class="widget-body">
+        <div id="board">
+            <div class="content">
+                <p>Welcome to Solen's blog！<br>Check my github page out <a target="_blank" rel="noopener" href="https://github.com/solenshelby">here.</a><br>Send a email to me <a href="mailto:solenshelby@gmail.com">here.</a><br>Have a nice day!</p>
+            </div>
+        </div>
+    </div>
+</div>
+    
+      
+  <div class="widget">
+    <h3 class="widget-title">
+      <i class="icon icon-tags"></i>
+      Categories
+    </h3>
+    <div class="widget-body">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Front-end/">Front-end</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/">Hexo</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/photo/">photo</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/photo1/">photo1</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/web/">web</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/xinde/">xinde</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/xindefenlei/">xindefenlei</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%88%86%E7%B1%BB1/">分类1</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%96%87%E4%BB%B6/">文件</a><span class="category-list-count">1</span></li></ul>
+    </div>
+  </div>
+  
+    
+      <!-- 
+  <div class="widget">
+    <h3 class="widget-title">
+      <i class="icon icon-tags"></i>
+      Tags
+    </h3>
+    <div class="widget-body">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/CSS/" rel="tag">CSS</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/HTML/" rel="tag">HTML</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Linux/" rel="tag">Linux</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/biaqoa/" rel="tag">biaqoa</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/blog/" rel="tag">blog</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/xinde-biaoqian/" rel="tag">xinde biaoqian</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%A0%87%E7%AD%BE/" rel="tag">标签</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%A0%87%E7%AD%BE-%E6%96%B0%E7%9A%84%E6%A0%87%E7%AD%BE-%E6%A0%87%E7%AD%BE%E6%B5%8B%E8%AF%95-%E6%A0%87%E7%AD%BE1/" rel="tag">标签 新的标签 标签测试 标签1</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%A0%87%E7%AD%BE1/" rel="tag">标签1</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%A0%87%E7%AD%BE%E6%B5%8B%E8%AF%95/" rel="tag">标签测试</a><span class="tag-list-count">2</span></li></ul>
+    </div>
+  </div>
+   -->
+    
+      
+  <div class="widget">
+    <h3 class="widget-title">
+      <i class="icon icon-tag"></i>
+      Tag Cloud
+    </h3>
+    <div class="widget-body tagcloud">
+      <a href="/tags/CSS/" style="font-size: 13px;">CSS</a> <a href="/tags/HTML/" style="font-size: 13px;">HTML</a> <a href="/tags/Linux/" style="font-size: 13px;">Linux</a> <a href="/tags/biaqoa/" style="font-size: 13px;">biaqoa</a> <a href="/tags/blog/" style="font-size: 13px;">blog</a> <a href="/tags/xinde-biaoqian/" style="font-size: 13px;">xinde biaoqian</a> <a href="/tags/%E6%A0%87%E7%AD%BE/" style="font-size: 14px;">标签</a> <a href="/tags/%E6%A0%87%E7%AD%BE-%E6%96%B0%E7%9A%84%E6%A0%87%E7%AD%BE-%E6%A0%87%E7%AD%BE%E6%B5%8B%E8%AF%95-%E6%A0%87%E7%AD%BE1/" style="font-size: 13px;">标签 新的标签 标签测试 标签1</a> <a href="/tags/%E6%A0%87%E7%AD%BE1/" style="font-size: 13px;">标签1</a> <a href="/tags/%E6%A0%87%E7%AD%BE%E6%B5%8B%E8%AF%95/" style="font-size: 14px;">标签测试</a>
+    </div>
+  </div>
+
+    
+      
+  <div class="widget">
+    <h3 class="widget-title">
+      <i class="icon icon-archives-fill"></i>
+      Archive
+    </h3>
+    <div class="widget-body">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/06/">June 2022</a><span class="archive-list-count">21</span></li></ul>
+    </div>
+  </div>
+  
+    
+      
+  <div class="widget">
+    <h3 class="widget-title">
+      <i class="icon icon-shu-fill"></i>
+      Recent Posts
+      </h3>
+    <div class="widget-body">
+      <ul class="recent-post-list list-unstyled ">
+        
+          <li>
+            
+            <div class="item-thumb">
+              <a href="/2022/06/28/heima-html-note/" class="thumb">
+    
+    
+        <span style="background-image:url(https://fastly.jsdelivr.net/gh/solenshelby/solenshelby.github.io@main//images/heima_html_note/html5-logo.jpg)" alt="黑马程序员HTML笔记" class="thumb-image"></span>
+    
+</a>
+
+            </div>
+            
+            <div class="item-inner">
+              <p class="item-category">
+                <a class="category-link" href="/categories/Front-end/">Front-end</a>
+              </p>
+              <p class="item-title">
+                <a href="/2022/06/28/heima-html-note/" class="title">黑马程序员HTML笔记</a>
+              </p>
+              <p class="item-date">
+                <time datetime="2022-06-27T17:05:27.000Z" itemprop="datePublished">2022-06-28</time>
+              </p>
+            </div>
+          </li>
+          
+          <li>
+            
+            <div class="item-thumb">
+              <a href="/2022/06/26/jdie/" class="thumb">
+    
+    
+        <span class="thumb-image thumb-none"></span>
+    
+</a>
+
+            </div>
+            
+            <div class="item-inner">
+              <p class="item-category">
+                <a class="category-link" href="/categories/photo/">photo</a>
+              </p>
+              <p class="item-title">
+                <a href="/2022/06/26/jdie/" class="title">jdie</a>
+              </p>
+              <p class="item-date">
+                <time datetime="2022-06-25T17:32:21.000Z" itemprop="datePublished">2022-06-26</time>
+              </p>
+            </div>
+          </li>
+          
+          <li>
+            
+            <div class="item-thumb">
+              <a href="/2022/06/24/10-useful-vim-shortcuts/" class="thumb">
+    
+    
+        <span style="background-image:url(https://fastly.jsdelivr.net/gh/solenshelby/image-host@main/img/pkrumins-avatar.jpg)" alt="10 useful vim shortcuts" class="thumb-image"></span>
+    
+</a>
+
+            </div>
+            
+            <div class="item-inner">
+              <p class="item-category">
+                <a class="category-link" href="/categories/web/">web</a>
+              </p>
+              <p class="item-title">
+                <a href="/2022/06/24/10-useful-vim-shortcuts/" class="title">10 useful vim shortcuts</a>
+              </p>
+              <p class="item-date">
+                <time datetime="2022-06-23T18:30:52.000Z" itemprop="datePublished">2022-06-24</time>
+              </p>
+            </div>
+          </li>
+          
+          <li>
+            
+            <div class="item-thumb">
+              <a href="/2022/06/23/beizhu/" class="thumb">
+    
+    
+        <span style="background-image:url(https://fastly.jsdelivr.net/gh/solenshelby/image-host@main/img/maomao.jpg)" alt="备注一下" class="thumb-image"></span>
+    
+</a>
+
+            </div>
+            
+            <div class="item-inner">
+              <p class="item-category">
+                <a class="category-link" href="/categories/Hexo/">Hexo</a>
+              </p>
+              <p class="item-title">
+                <a href="/2022/06/23/beizhu/" class="title">备注一下</a>
+              </p>
+              <p class="item-date">
+                <time datetime="2022-06-22T20:00:05.000Z" itemprop="datePublished">2022-06-23</time>
+              </p>
+            </div>
+          </li>
+          
+          <li>
+            
+            <div class="item-thumb">
+              <a href="/2022/06/23/909090/" class="thumb">
+    
+    
+        <span class="thumb-image thumb-none"></span>
+    
+</a>
+
+            </div>
+            
+            <div class="item-inner">
+              <p class="item-category">
+                
+              </p>
+              <p class="item-title">
+                <a href="/2022/06/23/909090/" class="title">909090</a>
+              </p>
+              <p class="item-date">
+                <time datetime="2022-06-22T18:25:14.000Z" itemprop="datePublished">2022-06-23</time>
+              </p>
+            </div>
+          </li>
+          
+      </ul>
+    </div>
+  </div>
+  
+
+    
+  </div>
+</aside>
+
+  
+  
+  <aside class="sidebar sidebar-toc collapse   in  " id="collapseToc" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    <nav id="toc" class="article-toc">
+      <h3 class="toc-title">Catalogue</h3>
+      <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80%E8%B7%AF%E7%BA%BF"><span class="toc-text">前端学习基础路线</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF%E6%9F%A5%E9%98%85%E8%B5%84%E6%96%99"><span class="toc-text">前端技术查阅资料</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%80%E3%80%81HTML%E7%AE%80%E4%BB%8B"><span class="toc-text">一、HTML简介</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-%E7%BD%91%E9%A1%B5"><span class="toc-text">1.网页</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-%E5%B8%B8%E7%94%A8%E6%B5%8F%E8%A7%88%E5%99%A8"><span class="toc-text">2.常用浏览器</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-Web%E6%A0%87%E5%87%86%EF%BC%88%E9%87%8D%E7%82%B9%EF%BC%89"><span class="toc-text">3.Web标准（重点）</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%8C%E3%80%81HTML%E6%A0%87%E7%AD%BE%EF%BC%88%E4%B8%8A%EF%BC%89"><span class="toc-text">二、HTML标签（上）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-HTML%E8%AF%AD%E6%B3%95%E8%A7%84%E8%8C%83"><span class="toc-text">1.HTML语法规范</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-HTML%E5%9F%BA%E6%9C%AC%E7%BB%93%E6%9E%84%E6%A0%87%E7%AD%BE"><span class="toc-text">2.HTML基本结构标签</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E7%BD%91%E9%A1%B5%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%EF%BC%88vscode%EF%BC%89"><span class="toc-text">3.网页开发工具（vscode）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-HTML%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE"><span class="toc-text">4.HTML常用标签</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text"> - \。
+ 1234567&lt;h1&gt;标题一共六级选,&lt;&#x2F;h1&gt; &lt;h2&gt;文字加粗一行显。&lt;&#x2F;h2&gt; &lt;h3&gt;由大到小依次减，&lt;&#x2F;h3&gt; &lt;h4&gt;从重到轻随之变。&lt;&#x2F;h4&gt; &lt;h5&gt;语法规范书写后，&lt;&#x2F;h5&gt; &lt;h6&gt;具体效果刷新见。&lt;&#x2F;h6&gt;           ------pink老师
+ 单词 head 的缩写，意为头部、标题。 标签语义:作为标题使用，并且依据重要性递减。
+ 特点：
+ （1）加了标题的文字会变的加粗，字号也会依次变大。
+ （2）一个标题独占一行。
+</span></a><ol class="toc-child"><li class="toc-item toc-level-6"><a class="toc-link"><span class="toc-text">。
+ 1234567&lt;h1&gt;标题一共六级选,&lt;&#x2F;h1&gt; &lt;h2&gt;文字加粗一行显。&lt;&#x2F;h2&gt; &lt;h3&gt;由大到小依次减，&lt;&#x2F;h3&gt; &lt;h4&gt;从重到轻随之变。&lt;&#x2F;h4&gt; &lt;h5&gt;语法规范书写后，&lt;&#x2F;h5&gt; &lt;h6&gt;具体效果刷新见。&lt;&#x2F;h6&gt;           ------pink老师
+ 单词 head 的缩写，意为头部、标题。 标签语义:作为标题使用，并且依据重要性递减。
+ 特点：
+ （1）加了标题的文字会变的加粗，字号也会依次变大。
+ （2）一个标题独占一行。
+</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#two"><span class="toc-text">第2集介绍</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%89%E3%80%81HTML%E6%A0%87%E7%AD%BE%EF%BC%88%E4%B8%8B%EF%BC%89"><span class="toc-text">三、HTML标签（下）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E8%A1%A8%E6%A0%BC%E6%A0%87%E7%AD%BE%EF%BC%88%E6%98%BE%E7%A4%BA%E6%95%B0%E6%8D%AE%EF%BC%89"><span class="toc-text">1.表格标签（显示数据）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E5%88%97%E8%A1%A8%E6%A0%87%E7%AD%BE%EF%BC%88%E9%A1%B5%E9%9D%A2%E5%B8%83%E5%B1%80%EF%BC%89"><span class="toc-text">2.列表标签（页面布局）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E8%A1%A8%E5%8D%95%E6%A0%87%E7%AD%BE"><span class="toc-text">3.表单标签</span></a></li></ol>
+    </nav>
+  </div>
+</aside>
+
+<main class="main" role="main">
+  <div class="content">
+  <article id="post-heima-html-note" class="article article-type-post" itemscope
+    itemtype="http://schema.org/BlogPosting">
+    
+      <div class="article-header">
+        
+          
+  
+    <h1 class="article-title" itemprop="name">
+     
+      黑马程序员HTML笔记
+    </h1>
+  
+
+            
+              <div class="article-meta">
+                <span class="article-date">
+    <i class="icon icon-calendar-check"></i>
+    <a href="/2022/06/28/heima-html-note/" class="article-date">
+        <time datetime="2022-06-27T17:05:27.000Z" itemprop="datePublished">
+            2022-06-28
+        </time>
+    </a>
+</span>
+
+<span class="article-date">
+    
+    <a href="/2022/06/28/heima-html-note/" class="article-date">
+		Updated
+        <time datetime="2022-06-27T18:51:05.771Z" itemprop="dateUpdated">
+            2022-06-28
+        </time>
+    </a>
+</span>
+
+                  
+  <span class="article-category">
+    <i class="icon icon-folder"></i>
+    <a class="article-category-link" href="/categories/Front-end/">Front-end</a>
+  </span>
+
+                    
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>
+	<a class="article-tag-link-link" href="/tags/HTML/" rel="tag">HTML</a>
+  </span>
+
+
+                      
+	<span class="article-read hidden-xs">
+	    <i class="icon icon-eye-fill" aria-hidden="true"></i>
+	    <span id="busuanzi_container_page_pv">
+			<span id="busuanzi_value_page_pv">0</span>
+		</span>
+	</span>
+
+
+                        <span class="post-comment"><i class="icon icon-comment"></i> <a
+                            href="/2022/06/28/heima-html-note/#comments" class="article-comment-link">
+                            Comments
+                          </a></span>
+                        
+	
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 3.4k(words)</span>
+	
+	
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 12(minutes)</span>
+	
+
+              </div>
+      </div>
+      <div style="background-color:#fafafa;border:1px dotted #e6e6e3;border-radius:10px;padding:5px; margin-bottom: 20px;">
+        <b>Reminder:</b> Click on <i style="color:rgb(36, 36, 36)" class="icon icon-anchor"></i>  at the bottom of the page to expand or collapse the Catalogue.
+      </div>
+      <div class="article-entry marked-body" itemprop="articleBody">
+        
+                  <p>摘要：学习黑马前端的笔记，课程学习请访问B站<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV14J4114768?vd_source=0a7e7a89126208016b0448e9492b9156">黑马程序员pink老师前端入门教程</a><span id="more"></span></p>
+<hr>
+<h3 id="前端学习基础路线"><a href="#前端学习基础路线" class="headerlink" title="前端学习基础路线"></a>前端学习基础路线</h3><p>HTML5基础  ➡️ CSS3基础 ➡️ H5C3 ➡️ 品优购网站项目</p>
+<h3 id="前端技术查阅资料"><a href="#前端技术查阅资料" class="headerlink" title="前端技术查阅资料"></a>前端技术查阅资料</h3><ol>
+<li>W3C: <a target="_blank" rel="noopener" href="http://www.w3school.com.cn/">http://www.w3school.com.cn/</a> </li>
+<li>MDN: <a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/">https://developer.mozilla.org/zh-CN/</a></li>
+</ol>
+<p><strong>网友笔记：</strong><a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/lNkLbVL8qWsay8c3krVL8A">「学习笔记」HTML基础</a></p>
+<hr>
+<h3 id="一、HTML简介"><a href="#一、HTML简介" class="headerlink" title="一、HTML简介"></a>一、HTML简介</h3><h4 id="1-网页"><a href="#1-网页" class="headerlink" title="1.网页"></a>1.网页</h4><ol>
+<li><p>什么是网页：</p>
+<p> 网站是指在因特网上根据一定的规则，使用 HTML 等制作的用于展示特定内容相关的网页集合。</p>
+<p> 网页是网站中的一“页”，通常是 HTML 格式的文件，它要通过浏览器来阅读。</p>
+<p> 网页是构成网站的基本元素，它通常由图片、链接、文字、声音、视频等元素组成。通常我们看到的网页， 常见以 .htm 或 .html 后缀结尾的文件，因此将其俗称为 HTML 文件。</p>
+</li>
+<li><p>什么是HTML：</p>
+<p> HTML 指的是超文本标记语言 (Hyper Text Markup Language) ，它是用来描述网页的一种语言。</p>
+<p> HTML 不是一种编程语言，而是一种标记语言 (markup language)。</p>
+<p> 标记语言是一套标记标签 (markup tag)。</p>
+<blockquote>
+<p><strong><em>所谓超文本，有 2 层含义:</em></strong></p>
+<ol>
+<li>它可以加入图片、声音、动画、多媒体等内容(超越了文本限制 )。</li>
+<li>它还可以从一个文件跳转到另一个文件，与世界各地主机的文件连接(超级链接文本 )。</li>
+</ol>
+</blockquote>
+</li>
+<li>网页的形成：<br> 网页是由网页元素组成的，这些元素是利用 html 标签描述出来，然后通过浏览器解析来显示给用户的。</li>
+</ol>
+<h4 id="2-常用浏览器"><a href="#2-常用浏览器" class="headerlink" title="2.常用浏览器"></a>2.常用浏览器</h4><ol>
+<li>常用浏览器</li>
+<li><p>浏览器内核</p>
+<p> 浏览器内核(渲染引擎): 负责读取网页内容，整理讯息，计算网页的显示方式并显示页面。</p>
+<p> | 浏览器 | 内核 | 备注 |<br> | —- | —- | —- |<br> | IE | Trident | IE、猎豹安全、360极速浏览器、百度浏览器 |<br> | firefox | Gecko | 火狐浏览器 |<br> | Safari | Webkit | 苹果浏览器 |<br> |  chrome/Opera | Blink | chrome/opera浏览器内核。Blink属于Webkit的分支。 |</p>
+<p> 目前国内一般浏览器都会采用 Webkit/Blink 内核，如 360、UC、QQ、搜狗等。</p>
+</li>
+</ol>
+<h4 id="3-Web标准（重点）"><a href="#3-Web标准（重点）" class="headerlink" title="3.Web标准（重点）"></a>3.Web标准（重点）</h4><p><a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/Learn/Getting_started_with_the_web/The_web_and_web_standards">Web 标准</a>是由 W3C 组织和其他标准化组织制定的一系列标准的集合。W3C(万维网联盟)是国际最著名的标准化组织。</p>
+<ol>
+<li><p>为什么需要Web标准</p>
+<p> 遵循 Web 标准除了可以让不同的开发人员写出的页面更标准、更统一外，还有以下优点:</p>
+<ul>
+<li>让Web的发展前景更广阔</li>
+<li>内容能被更广泛的的设备访问</li>
+<li>更容易被搜寻引擎搜索</li>
+<li>降低网站流量费用</li>
+<li>使网站更易于维护</li>
+<li>提高页面浏览速度</li>
+</ul>
+</li>
+<li><p>Web标准的构成</p>
+<p> 主要包括结构（Structure）、表现（Presentation）和行为（Behavior）三个方面。</p>
+<p> | 标准 | 说明 |<br> | —- | —- |<br> | Structure | 结构用于对网页元素进行整理和分类，现阶段主要学的是HTML。 |<br> | Presentation | 表现用于设置网页元素的版式、颜色、大小等外观样式，主要指的是CSS。 |<br> | Behavior | 行为指的是网页模型的定义及交互的编写，现阶段主要学的是Javascript。 |</p>
+<p> Web标准提出的最佳体验方案：结构、样式、行为相分离。</p>
+<p> 简单理解：结构写到 HTML 文件中， 表现写到 CSS 文件中， 行为写到 JavaScript 文件中。</p>
+</li>
+</ol>
+<hr>
+<h3 id="二、HTML标签（上）"><a href="#二、HTML标签（上）" class="headerlink" title="二、HTML标签（上）"></a>二、HTML标签（上）</h3><h3 id="1-HTML语法规范"><a href="#1-HTML语法规范" class="headerlink" title="1.HTML语法规范"></a>1.HTML语法规范</h3><ol>
+<li><p>基本语法概述</p>
+<p> HTML 标签是由尖括号包围的关键词，例如 <html>。</p>
+<p> HTML 标签通常是成对出现的，例如 <html> 和 </html> ，我们称为双标签。</p>
+<p> 标签中的第一个标签是开始标签，第二个标签是结束标签。</p>
+<p> 有些特殊的标签必须是单个标签(极少情况)，例如 <br />，我们称为单标签。</p>
+</li>
+<li><p>标签关系</p>
+<p> 双标签关系可以分为两类：包含关系和并列关系。</p>
+<p> 包含关系：</p>
+ <head>
+
+ <title></title>
+
+ </head>
+
+<p> 并列关系：</p>
+ <head></head>
+
+ <body></body>
+
+
+</li>
+</ol>
+<h3 id="2-HTML基本结构标签"><a href="#2-HTML基本结构标签" class="headerlink" title="2.HTML基本结构标签"></a>2.HTML基本结构标签</h3><ol>
+<li><p>第一个HTML网页</p>
+<p> 每个网页都会有一个基本的结构标签(也称为骨架标签)，页面内容也是在这些基本标签上书写。</p>
+<p> | 标签名 | 定义 | 说明 |<br> | —- | —- | —- |<br> | <html></html> | HTML标签 | 页面中的最大标签，也称为根标签。 |<br> | <head></head> | 文档的头部 | 注意在head标签中我们必须设置的标签是title标签 |<br> | <title></title> | 文档的标题 | 让页面拥有一个属于自己的网页标题。 |<br> | <body></body> | 文档的主体 | 元素包含文档的所有内容，页面内容基本都是放到body标签里面的。 |</p>
+<p> HTML页面也称为HTML文档。</p>
+<p> HTML 文档的的后缀名必须是 .html 或 .htm ，浏览器的作用是读取 HTML 文档，并以网页的形式显示出它们。</p>
+<p> 用浏览器打开这个页面，我们就可以预览我们写的第一个HTML页面文件了。</p>
+ <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">				<span class="tag">&lt;<span class="name">title</span>&gt;</span>我的第一个页面<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">					好好学习，天天向上。</span><br><span class="line">		<span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>基本结构标签总结</p>
+<p> <img src="HTML%E5%AD%A6%E4%B9%A0%205fb680bc5a114c5381f1565e33ebca11/HTML%E9%A1%B5%E9%9D%A2%E5%9F%BA%E6%9C%AC%E7%BB%93%E6%9E%84%E6%A0%87%E7%AD%BE.png" alt="HTML页面基本结构标签.png"></p>
+</li>
+</ol>
+<h3 id="3-网页开发工具（vscode）"><a href="#3-网页开发工具（vscode）" class="headerlink" title="3.网页开发工具（vscode）"></a>3.网页开发工具（vscode）</h3><p><strong><a target="_blank" rel="noopener" href="https://www.w3cschool.cn/html5/html5-tool.html">推荐11款程序员必备的HTML5开发工具</a></strong></p>
+<ol>
+<li><p>VScode的使用</p>
+<p> 这个部分对于软件熟练使用后就好。</p>
+</li>
+<li><p>VScode工具生成骨架标签新增代码：</p>
+<p> &lt;!DOCTYPE&gt;标签</p>
+<p> lang 语言</p>
+<p> charset字符集</p>
+</li>
+<li><p>文档类型声明标签</p>
+<p> &lt;!DOCTYPE&gt;文档类型声明，告诉浏览器使用哪种html版本来显示网页。</p>
+ <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"></span><br><span class="line">这句代码的意思是: 当前页面采取的是 HTML5 版本来显示网页。</span><br><span class="line"></span><br><span class="line">注意：</span><br><span class="line">	1. <span class="meta">&lt;!DOCTYPE&gt;</span> 声明位于文档中的最前面位置，处于 <span class="tag">&lt;<span class="name">html</span>&gt;</span> 标签之前。</span><br><span class="line">	2. <span class="meta">&lt;!DOCTYPE&gt;</span>不是一个HTML标签，它就是文档类型声明标签。</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>lang语言种类</p>
+<p> 用来定义当前文档显示的语言。en定义语言为英语。zh-CN定义语言为中文。</p>
+<p> 简单来说,定义为en 就是英文网页, 定义为 zh-CN 就是中文网页。</p>
+<p> 其实对于文档显示来说，定义成en的文档也可以显示中文，定义成zh-CN的文档也可以显示英文。</p>
+<p> 这个属性对浏览器和搜索引擎(百度.谷歌等)还是有作用的。</p>
+</li>
+<li><p>字符集</p>
+<p> 字符集 (Character set)是多个字符的集合。以便计算机能够识别和存储各种文字。</p>
+<p> 在<head>标签内，可以通过<meta> 标签的 charset 属性来规定 HTML 文档应该使用哪种字符编码。</p>
+ <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span> /&gt;</span></span><br><span class="line"></span><br><span class="line">charset 常用的值有:GB2312 、BIG5 、GBK 和 UTF-8，其中 UTF-8 也被称为万国码，</span><br><span class="line">基本包含了全世界所 有国家需要用到的字符。</span><br><span class="line"></span><br><span class="line">注意:</span><br><span class="line">	上面语法是必须要写的代码，否则可能引起乱码的情况。</span><br><span class="line">	一般情况下，统一使用“UTF-8”编码，尽量统一写成标准的 &quot;UTF-8&quot;，不要写成 &quot;utf8&quot; 或 &quot;UTF8&quot;。</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h3 id="4-HTML常用标签"><a href="#4-HTML常用标签" class="headerlink" title="4.HTML常用标签"></a>4.HTML常用标签</h3><ol>
+<li><p>标签语义</p>
+<p> 学习标签是有技巧的，重点是记住每个标签的语义。简单理解就是指标签的含义，即这个标签是用来干嘛的。</p>
+<p> 根据标签的语义，在合适的地方给一个最为合理的标签，可以让页面结构更清晰。</p>
+</li>
+<li><p><strong>标题标签</strong></p>
+<p> HTML 提供了 6 个等级的网页标题，即\<h1> - \<h6>。</p>
+ <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">h1</span>&gt;</span>标题一共六级选,<span class="tag">&lt;/<span class="name">h1</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">h2</span>&gt;</span>文字加粗一行显。<span class="tag">&lt;/<span class="name">h2</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">h3</span>&gt;</span>由大到小依次减，<span class="tag">&lt;/<span class="name">h3</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">h4</span>&gt;</span>从重到轻随之变。<span class="tag">&lt;/<span class="name">h4</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">h5</span>&gt;</span>语法规范书写后，<span class="tag">&lt;/<span class="name">h5</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">h6</span>&gt;</span>具体效果刷新见。<span class="tag">&lt;/<span class="name">h6</span>&gt;</span></span><br><span class="line">           ------pink老师</span><br></pre></td></tr></table></figure>
+<p> 单词 head 的缩写，意为头部、标题。<br> 标签语义:作为标题使用，并且依据重要性递减。</p>
+<p> 特点：</p>
+<p> （1）加了标题的文字会变的加粗，字号也会依次变大。</p>
+<p> （2）一个标题独占一行。</p>
+</li>
+<li><p><strong>段落标签<p></strong></p>
+<p> 在 HTML 标签中，<p>标签用于定义段 落，它可以将整个网页分为若干个段落。</p>
+<p> 单词 paragraph [ˈpærəgræf] 的缩写，意为段落。</p>
+<p> 特点：</p>
+<p> （1）文本在一个段落中会根据浏览器窗口的大小自动换行。</p>
+<p> （2）段落和段落之间保有空隙。</p>
+ <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>我是一个段落标签<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>换行标签<br/></strong>(单标签）</p>
+<p> 在 HTML 中，一个段落中的文字会从左到右依次排列，直到浏览器窗口的右端，然后才自动换行。如果希望 某段文本强制换行显示，就需要使用换行标签 <br />。</p>
+<p> 单词 break 的缩写，意为打断、换行。</p>
+<p> 标签语义:强制换行。</p>
+<p> 特点：</p>
+<p> （1）<br /> 是个单标签。</p>
+<p> （2）<br /> 标签只是简单地开始新的一行，跟段落不一样，段落之间会插入一些垂直的间距。</p>
+</li>
+<li><p><strong>文本格式化标签</strong></p>
+</li>
+</ol>
+<pre><code>| 语义 | 标签 | 说明 |
+| --- | --- | --- |
+| 加粗 | \&lt;strong&gt;\&lt;/strong&gt;或\&lt;b&gt;\&lt;/b&gt; | 推荐，语义更加强烈。 |
+| 倾斜 | \&lt;em&gt;\&lt;/em&gt;或\&lt;i&gt;\&lt;/i&gt; | 推荐，语义更加强烈。 |
+| 删除线 | \&lt;del&gt;\&lt;/del&gt;或\&lt;s&gt;\&lt;/s&gt; | 推荐，语义更加强烈。 |
+| 下划线 | \&lt;ins&gt;\&lt;/ins&gt;或\&lt;u&gt;\&lt;/u&gt; | 推荐，语义更加强烈。 |
+</code></pre><ol>
+<li><p><strong>\<div>和\<span>标签</strong></p>
+<p> \<div> 和 \<span> 是没有语义的，它们就是一个盒子，用来装内容的。</p>
+<p> div 是 division 的缩写，表示分割、分区。span 意为跨度、跨距。</p>
+<p> 特点：<br> （1）\<div> 标签用来布局，但是现在一行只能放一个\<div>。 大盒子</p>
+<p> （2）\<span> 标签用来布局，一行上可以多个 \<span>。小盒子</p>
+ <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span> 这是头部 <span class="tag">&lt;/<span class="name">div</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">span</span>&gt;</span> 今日价格 <span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>图像标签</strong></p>
+<p> 在 HTML 标签中，\<img> 标签用于定义 HTML 页面中的图像。单词 image 的缩写，意为图像。</p>
+ <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;图像URL&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure>
+<p> src 是\<img>标签的必须属性，它用于指定图像文件的路径和文件名。</p>
+<p> 所谓属性:简单理解就是属于这个图像标签的特性。</p>
+<p> 图像标签的其他属性:</p>
+<p> | 属性 | 属性值 | 说明 |<br> | —- | —- | —- |<br> | src | 图片路径 | 必须属性 |<br> | alt | 文本 | 替换文本。图像不能显示时的文字 |<br> | title | 文本 | 提示文本。鼠标放到图像上，显示的文字 |<br> | width | 像素 | 设置图像的宽度 |<br> | height | 像素 | 设置图像的高度 |<br> | border | 像素 | 设置图像的边框粗细 |</p>
+<p> <strong>图像标签属性注意点:</strong></p>
+<p> 图像标签可以拥有多个属性，必须写在标签名的后面。</p>
+<p> 属性之间不分先后顺序，标签名与属性、属性与属性之间均以空格分开。</p>
+<p> 属性采取键值对的格式，即 key=“value” 的格式，属性 =“属性值”。</p>
+</li>
+<li><p><strong>路径</strong> </p>
+<p> 绝对路径</p>
+<p> 相对路径</p>
+<p> 这一部分属于计算机基础，熟练使用即可。</p>
+</li>
+<li><p><strong>超链接标签（important!）</strong></p>
+<p> 在 HTML 标签中，<a> 标签用于定义超链接，作用是从一个页面链接到另一个页面。</p>
+<p> <strong>(1) 链接的语法格式</strong></p>
+ <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;跳转目标&quot;</span> <span class="attr">target</span>=<span class="string">&quot;目标窗口的弹出方式&quot;</span>&gt;</span> 文本或图像 <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p> 单词 anchor [ˈæŋkə(r)] 的缩写，意为:锚。</p>
+<p> 两个属性的作用如下:</p>
+<p> | 属性 | 作用 |<br> | —- | —- |<br> | href | 用于指定链接目标的url地址，必须属性，当为标签应用href属性时候，它就有了超链接功能。 |<br> | target | 用于指定链接页面的打开方式，其中_self为默认值，_blank为在新窗口中打开方式。 |</p>
+<p> <strong>（2）链接分类</strong></p>
+<p> | 链接分类 | 说明 |<br> | —- | —- |<br> | 外部链接 | 例如 &lt; a href=”http:// www.baidu.com “&gt; 百度&lt;/a &gt;。 |<br> | 内部链接 | 网站内部页面之间的相互链接. 直接链接内部页面名称即可，例如 &lt; a href=”index.html”&gt; 首页 &lt;/a &gt; |<br> | 空链接 | 如果当时没有确定链接目标时，&lt; a href=”#”&gt; 首页 &lt;/a &gt;  |<br> | 下载链接 | 如果 href 里面地址是一个文件或者压缩包，会下载这个文件 |<br> | 网页元素链接 | 在网页中的各种网页元素，如文本、图像、表格、音频、视频等都可以添加超链接 |<br> | 锚点链接 | 点我们点击链接,可以快速定位到页面中的某个位置 |</p>
+<p> 锚点链接使用方法：</p>
+<ol>
+<li><p>在链接文本的 href 属性中，设置属性值为 #名字 的形式，如:<a href="#two"> 第2集 </a></p>
+</li>
+<li><p>找到目标位置标签，里面添加一个 id 属性 = 刚才的名字 ，如:<h3 id="two">第2集介绍</h3></p>
+</li>
+</ol>
+</li>
+<li><p><strong>注释</strong></p>
+<p>如果需要在 HTML 文档中添加一些便于阅读和理解但又不需要显示在页面中的注释文字，就需要使用注释标签。</p>
+<p>HTML中的注释以“<!--”开头，以“ -->”结束。</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 注释语句 --&gt;</span> </span><br><span class="line">快捷键: ctrl + /</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>特殊字符</strong></p>
+<p>在 HTML 页面中，一些特殊的符号很难或者不方便直接使用，此时我们就可以使用下面的字符来替代。</p>
+<p><img src="HTML%E5%AD%A6%E4%B9%A0%205fb680bc5a114c5381f1565e33ebca11/html%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6.png" alt="html特殊字符.png"></p>
+<p>重点记住:空格 、大于号、 小于号 这三个， 其余的使用很少，如果需要回头查阅即可。</p>
+<p>小于号：&lt; meanings less than</p>
+<p>大于号：&gt; meanings great than</p>
+</li>
+</ol>
+<hr>
+<h2 id="三、HTML标签（下）"><a href="#三、HTML标签（下）" class="headerlink" title="三、HTML标签（下）"></a>三、HTML标签（下）</h2><h3 id="1-表格标签（显示数据）"><a href="#1-表格标签（显示数据）" class="headerlink" title="1.表格标签（显示数据）"></a>1.表格标签（显示数据）</h3><p><img src="HTML%E5%AD%A6%E4%B9%A0%205fb680bc5a114c5381f1565e33ebca11/%E8%A1%A8%E6%A0%BC%E6%A0%87%E7%AD%BE.png" alt="表格标签.png"></p>
+<h3 id="2-列表标签（页面布局）"><a href="#2-列表标签（页面布局）" class="headerlink" title="2.列表标签（页面布局）"></a>2.列表标签（页面布局）</h3><p><img src="HTML%E5%AD%A6%E4%B9%A0%205fb680bc5a114c5381f1565e33ebca11/%E5%88%97%E8%A1%A8%E6%A0%87%E7%AD%BE.png" alt="列表标签.png"></p>
+<h3 id="3-表单标签"><a href="#3-表单标签" class="headerlink" title="3.表单标签"></a>3.表单标签</h3><p>目的：收集用户信息，跟用户进行交互，通常是注册表。</p>
+<p>在 HTML 中，一个完整的表单通常由表单域、表单控件(也称为表单元素)和 提示信息3个部分构成。</p>
+<p><a href="HTML%E5%AD%A6%E4%B9%A0%205fb680bc5a114c5381f1565e33ebca11/html%E7%AC%AC%E4%BA%8C%E5%A4%A9.xmind">html第二天.xmind</a></p>
+<hr>
+
+                    
+      </div>
+      <div class="article-footer">
+        <blockquote class="mt-2x">
+  <ul class="post-copyright list-unstyled">
+    
+    <li class="post-copyright-link hidden-xs">
+      <strong>本文链接：</strong>
+      <a href="https://www.solen.ml/2022/06/28/heima-html-note/" title="黑马程序员HTML笔记" target="_blank" rel="external">https://www.solen.ml/2022/06/28/heima-html-note/</a>
+    </li>
+    
+    <li class="post-copyright-license">
+      <strong>版权声明： </strong> 本博客所有文章除特别声明外，均采用 <a href="http://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank" rel="external">CC BY 4.0 CN协议</a> 许可协议。转载请注明出处！
+    </li>
+  </ul>
+</blockquote>
+
+
+<div class="panel panel-default panel-badger">
+  <div class="panel-body">
+    <figure class="media">
+      <div class="media-left">
+        <a href="https://github.com/solenshelby" target="_blank" class="img-burn thumb-sm visible-lg">
+          <img src="/images/avatar.jpg" class="img-rounded w-full" alt="">
+        </a>
+      </div>
+      <div class="media-body">
+        <h3 class="media-heading"><a href="https://github.com/solenshelby" target="_blank"><span class="text-dark">Solen</span><small class="ml-1x">Web Developer Beginner</small></a></h3>
+        <div>Learing by Coding!</div>
+      </div>
+    </figure>
+  </div>
+</div>
+
+
+      </div>
+  </article>
+  
+    
+  <section id="comments">
+  	
+      <div id="lv-container" data-id="city" data-uid="MTAyMC81NjYzNi8zMzA5OQ==">
+        <noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
+      </div>    
+    
+  </section>
+
+
+      
+</div>
+
+  <nav class="bar bar-footer clearfix" data-stick-bottom>
+  <div class="bar-inner">
+  
+  <ul class="pager pull-left">
+    
+    
+    <li class="next">
+      <a href="/2022/06/26/jdie/" title="jdie"><span>Older&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
+    </li>
+    
+    
+    <li class="toggle-toc">
+      <a class="toggle-btn " data-toggle="collapse" href="#collapseToc" aria-expanded="false" title="Catalogue" role="button">    <span>[&nbsp;</span><span>Catalogue</span>
+        <i class="text-collapsed icon icon-anchor"></i>
+        <i class="text-in icon icon-close"></i>
+        <span>]</span>
+      </a>
+    </li>
+    
+  </ul>
+  
+  
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-fancy btn-donate pop-onhover bg-gradient-warning" data-toggle="modal" data-target="#donateModal"><span>$</span></button>
+  <!-- <div class="wave-icon wave-icon-danger btn-donate" data-toggle="modal" data-target="#donateModal">
+    <div class="wave-circle"><span class="icon"><i class="icon icon-bill"></i></span></div>
+  </div> -->
+  
+  
+  <div class="bar-right">
+    
+    <div class="share-component" data-sites="weibo,qq,wechat,facebook,twitter,telegram" data-mobile-sites="weibo,qq,qzone"></div>
+    
+  </div>
+  </div>
+</nav>
+    
+<!-- Modal -->
+<div class="modal modal-center modal-small modal-xs-full fade" id="donateModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content donate">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <div class="modal-body">
+        <div class="donate-box">
+          <div class="donate-head">
+            <p>Maybe you could buy me a cup of coffee.</p>
+          </div>
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane fade active in" id="alipay">
+              <div class="donate-payimg">
+                <img src="/images/donate/alipayimg.png" alt="Scan Qrcode" title="Scan" />
+              </div>
+              <p class="text-muted mv">Scan this qrcode</p>
+              <p class="text-grey">Open alipay app scan this qrcode, buy me a coffee!</p>
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="wechatpay">
+              <div class="donate-payimg">
+                <img src="/images/donate/wechatpayimg.png" alt="Scan Qrcode" title="Scan" />
+              </div>
+              <p class="text-muted mv">Scan this qrcode</p>
+              <p class="text-grey">Open wechat app scan this qrcode, buy me a coffee!</p>
+            </div>
+          </div>
+          <div class="donate-footer">
+            <ul class="nav nav-tabs nav-justified" role="tablist">
+              <li role="presentation" class="active">
+                <a href="#alipay" id="alipay-tab" role="tab" data-toggle="tab" aria-controls="alipay" aria-expanded="true"><i class="icon icon-alipay"></i> alipay</a>
+              </li>
+              <li role="presentation" class="">
+                <a href="#wechatpay" role="tab" id="wechatpay-tab" data-toggle="tab" aria-controls="wechatpay" aria-expanded="false"><i class="icon icon-wepay"></i> wechat payment</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      
+</main>
+
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<script>function siteTime() {
+        window.setTimeout("siteTime()", 1000);
+        var seconds = 1000;
+        var minutes = seconds * 60;
+        var hours = minutes * 60;
+        var days = hours * 24;
+        var years = days * 365;
+        var today = new Date();
+        var todayYear = today.getFullYear();
+        var todayMonth = today.getMonth() + 1;
+        var todayDate = today.getDate();
+        var todayHour = today.getHours();
+        var todayMinute = today.getMinutes();
+        var todaySecond = today.getSeconds();
+        /* Date.UTC() -- 返回date对象距世界标准时间(UTC)1970年1月1日午夜之间的毫秒数(时间戳)
+           year - 作为date对象的年份，为4位年份值
+           month - 0-11之间的整数，做为date对象的月份
+           day - 1-31之间的整数，做为date对象的天数
+           hours - 0(午夜24点)-23之间的整数，做为date对象的小时数
+           minutes - 0-59之间的整数，做为date对象的分钟数
+           seconds - 0-59之间的整数，做为date对象的秒数
+           microseconds - 0-999之间的整数，做为date对象的毫秒数
+        */
+        var t1 = Date.UTC(2020, 05, 19, 21, 20, 52); //t1为建站时间
+        var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+        var diff = t2 - t1;
+        var diffYears = Math.floor(diff / years);
+        var diffDays = Math.floor((diff / days) - diffYears * 365);
+        var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+        var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) / minutes);
+        var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours - diffMinutes * minutes) / seconds);
+        document.getElementById("sitetime").innerHTML = "已运行" +/*diffYears+" 年 "+*/diffDays + "天" + diffHours + "小时" + diffMinutes + "分钟" + diffSeconds + "秒";
+        // 因为建站时间还没有一年，就将之注释掉了。需要的可以取消
+        // 将「数字」转「补零字符串」
+        var y = diffYears.toString()
+        var d = diffDays.toString().padStart(3, '0')
+        var h = diffHours.toString().padStart(2, '0')
+        var m = diffMinutes.toString().padStart(2, '0')
+        var s = diffSeconds.toString().padStart(2, '0')
+        document.getElementById("sitetime").innerHTML = y + ":" + d + ":" + h + ":" + m + ":" + s;
+
+    }
+    siteTime();
+</script>
+<footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+    
+	
+    <ul class="social-links">
+    	
+        <li><a href="https://github.com/solenshelby" target="_blank" title="Github" data-toggle=tooltip data-placement=top><i class="icon icon-github"></i></a></li>
+        
+        <li><a href="https://twitter.com/SolenShelby" target="_blank" title="Twitter" data-toggle=tooltip data-placement=top><i class="icon icon-twitter"></i></a></li>
+        
+        <li><a href="https://stackoverflow.com/users/14040298/solen-shelby" target="_blank" title="Stackoverflow" data-toggle=tooltip data-placement=top><i class="icon icon-stackoverflow"></i></a></li>
+        
+        <li><a href="https://www.zhihu.com/people/solenshelby" target="_blank" title="Zhihu" data-toggle=tooltip data-placement=top><i class="icon icon-zhihu"></i></a></li>
+        
+        <li><a href="/atom.xml" target="_blank" title="Rss" data-toggle=tooltip data-placement=top><i class="icon icon-rss"></i></a></li>
+        
+    </ul>
+
+        <div class="copyright">
+            
+                &copy; 2022
+                    Solen
+                        
+                            <div class="publishby">
+                                <span id="busuanzi_container_site_pv">
+                                    <i class="icon icon-eye"></i>
+                                    <span id="busuanzi_value_site_pv" style="font-family:Courier"></span>
+                                    <i class="icon icon-users"></i>
+                                    <span id="busuanzi_value_site_uv" style="font-family:Courier"></span>
+                                </span>
+                            </div>
+                            <i class="icon icon-clock"></i>
+                            <span id="sitetime" style="font-family:Courier"></span>
+                            <!-- <div class="publishby">
+                                Theme by <a href="https://github.com/cofess" target="_blank">
+                                        cofess </a>
+                                    base on <a href="https://github.com/cofess/hexo-theme-pure"
+                                            target="_blank">pure</a>.
+                            </div> -->
+
+        </div>
+</footer>
+  <script src="//cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+<script>
+window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
+</script>
+
+<script src="/js/plugin.min.js"></script>
+
+
+<script src="/js/application.js"></script>
+
+
+    <script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+
+<script src="/js/insight.js"></script>
+
+
+
+
+
+
+   
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+
+   
+    
+<script defer type="text/javascript">
+  (function(d, s) {
+    var j, e = d.getElementsByTagName(s)[0];
+
+    if (typeof LivereTower === 'function') { return; }
+
+    j = d.createElement(s);
+    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+    j.async = true;
+
+    e.parentNode.insertBefore(j, e);
+  })(document, 'script');
+</script>
+
+
+
+
+  <script src="//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.3.5/dist/jquery.fancybox.min.js"></script>
+  <script>
+  //利用 FancyBox 实现点击图片放大
+  $(document).ready(function() {
+    $('article img').not('[hidden]').not('.panel-body img').each(function() {
+      var $image = $(this);
+      var imageCaption = $image.attr('alt');
+      var $imageWrapLink = $image.parent('a');
+      if ($imageWrapLink.length < 1) {
+        var src = this.getAttribute('src');
+        var idx = src.lastIndexOf('?');
+        if (idx != -1) {
+          src = src.substring(0, idx);
+        }
+        $imageWrapLink = $image.wrap('<a href="' + src + '"></a>').parent('a');
+      }
+      $imageWrapLink.attr('data-fancybox', 'images');
+      if (imageCaption) {
+        $imageWrapLink.attr('data-caption', imageCaption);
+      }
+    });
+    $().fancybox({
+      selector: '[data-fancybox="images"]',
+      hash: false,
+      loop: false,
+    });
+  });
+  </script>
+
+
+
+
+
+
+<!-- 一键返回顶部代码 -->
+<div id="go-top"></div>
+<style type="text/css">
+#go-top {
+ width:40px;height:40px;
+
+ background-color:#5d5a5d;
+ position:relative;
+ border-radius:20px;
+ position:fixed;right:35px;bottom:40px;
+ cursor:pointer;display:none;
+}
+#go-top:after {
+ content:" ";
+ position:absolute;left:14px;top:15px;
+ border-top:2px solid #fff;border-right:2px solid #fff;
+ width:12px;height:12px;
+ transform:rotate(-45deg);
+}
+#go-top:hover {
+ background-color: rgb(0,0,0);
+}
+</style>
+<script>
+$(function () {
+  var top=$("#go-top");
+  $(window).scroll(function () {
+    ($(window).scrollTop() > 300) ? top.show(300) : top.hide(200);
+    $("#go-top").click(function () {
+      $('body,html').animate({scrollTop:0});
+      return false();
+    })
+  });
+});
+</script>
+  
+  <style>
+    .copy-btn {
+      display: inline-block;
+      padding: 6px 12px;
+      font-size: 13px;
+      font-weight: 700;
+      line-height: 20px;
+      color: #333;
+      white-space: nowrap;
+      vertical-align: middle;
+      cursor: pointer;
+      background-color: #eee;
+      background-image: linear-gradient(#fcfcfc, #eee);
+      border: 1px solid #d5d5d5;
+      border-radius: 3px;
+      user-select: none;
+      outline: 0;
+    }
+
+    .highlight-wrap .copy-btn {
+      transition: opacity .3s ease-in-out;
+      opacity: 0;
+      padding: 2px 6px;
+      position: absolute;
+      right: 4px;
+      top: 8px;
+      z-index: 2;
+    }
+
+    .highlight-wrap:hover .copy-btn,
+        .highlight-wrap .copy-btn:focus {
+      opacity: 1
+    }
+
+    .highlight-wrap {
+      position: relative;
+    }
+  </style>
+  
+  <script>
+    addLoadEvent(()=>{
+      $('.highlight').each(function (i, e) {
+        var $wrap = $('<div>').addClass('highlight-wrap')
+        $(e).after($wrap)
+        $wrap.append($('<button>').addClass('copy-btn').append('Copy').on('click', function (e) {
+          var code = $(this).parent().find(".code")[0].innerText
+          
+          var ta = document.createElement('textarea')
+          document.body.appendChild(ta)
+          ta.style.position = 'absolute'
+          ta.style.top = '0px'
+          ta.style.left = '0px'
+          ta.value = code
+          ta.select()
+          ta.focus()
+          var result = document.execCommand('copy')
+          document.body.removeChild(ta)
+          
+            if(result)$(this).text('Copy Success')
+            else $(this).text('Copy Failure')
+          
+          $(this).blur()
+        })).on('mouseleave', function (e) {
+          var $b = $(this).find('.copy-btn')
+          setTimeout(function () {
+            $b.text('Copy')
+          }, 300)
+        }).append(e)
+      })
+    })
+  </script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
+</html>

@@ -6491,12 +6491,14 @@ body.no-sidebar .sidebar {
   padding-bottom: 0.3em;
   font-size: 2em;
   border-bottom: 1px solid #f2f2f2;
+  /* border-bottom: none; */
 }
 
 .marked-body h2 {
   padding-bottom: 0.3em;
   font-size: 1.5em;
   border-bottom: 1px solid #f2f2f2;
+  /* border-bottom: none; */
 }
 
 .marked-body a {
