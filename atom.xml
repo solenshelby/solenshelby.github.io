@@ -3,11 +3,11 @@
   <title>Solen&#39;blog</title>
   
   <subtitle>solen的博客</subtitle>
-  <link href="https://www.solen.ml/atom.xml" rel="self"/>
+  <link href="https://www.solen.eu.org/atom.xml" rel="self"/>
   
-  <link href="https://www.solen.ml/"/>
+  <link href="https://www.solen.eu.org/"/>
   <updated>2022-06-27T18:51:05.771Z</updated>
-  <id>https://www.solen.ml/</id>
+  <id>https://www.solen.eu.org/</id>
   
   <author>
     <name>Solen</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>黑马程序员HTML笔记</title>
-    <link href="https://www.solen.ml/2022/06/28/heima-html-note/"/>
-    <id>https://www.solen.ml/2022/06/28/heima-html-note/</id>
+    <link href="https://www.solen.eu.org/2022/06/28/heima-html-note/"/>
+    <id>https://www.solen.eu.org/2022/06/28/heima-html-note/</id>
     <published>2022-06-27T17:05:27.000Z</published>
     <updated>2022-06-27T18:51:05.771Z</updated>
     
@@ -30,17 +30,17 @@
     
     
     
-    <category term="Front-end" scheme="https://www.solen.ml/categories/Front-end/"/>
+    <category term="Front-end" scheme="https://www.solen.eu.org/categories/Front-end/"/>
     
     
-    <category term="HTML" scheme="https://www.solen.ml/tags/HTML/"/>
+    <category term="HTML" scheme="https://www.solen.eu.org/tags/HTML/"/>
     
   </entry>
   
   <entry>
     <title>jdie</title>
-    <link href="https://www.solen.ml/2022/06/26/jdie/"/>
-    <id>https://www.solen.ml/2022/06/26/jdie/</id>
+    <link href="https://www.solen.eu.org/2022/06/26/jdie/"/>
+    <id>https://www.solen.eu.org/2022/06/26/jdie/</id>
     <published>2022-06-25T17:32:21.000Z</published>
     <updated>2022-06-25T17:33:33.891Z</updated>
     
@@ -51,15 +51,15 @@
     
     
     
-    <category term="photo" scheme="https://www.solen.ml/categories/photo/"/>
+    <category term="photo" scheme="https://www.solen.eu.org/categories/photo/"/>
     
     
   </entry>
   
   <entry>
     <title>10 useful vim shortcuts</title>
-    <link href="https://www.solen.ml/2022/06/24/10-useful-vim-shortcuts/"/>
-    <id>https://www.solen.ml/2022/06/24/10-useful-vim-shortcuts/</id>
+    <link href="https://www.solen.eu.org/2022/06/24/10-useful-vim-shortcuts/"/>
+    <id>https://www.solen.eu.org/2022/06/24/10-useful-vim-shortcuts/</id>
     <published>2022-06-23T18:30:52.000Z</published>
     <updated>2022-06-23T18:47:58.964Z</updated>
     
@@ -74,17 +74,17 @@
     
     
     
-    <category term="web" scheme="https://www.solen.ml/categories/web/"/>
+    <category term="web" scheme="https://www.solen.eu.org/categories/web/"/>
     
     
-    <category term="Linux" scheme="https://www.solen.ml/tags/Linux/"/>
+    <category term="Linux" scheme="https://www.solen.eu.org/tags/Linux/"/>
     
   </entry>
   
   <entry>
     <title>备注一下</title>
-    <link href="https://www.solen.ml/2022/06/23/beizhu/"/>
-    <id>https://www.solen.ml/2022/06/23/beizhu/</id>
+    <link href="https://www.solen.eu.org/2022/06/23/beizhu/"/>
+    <id>https://www.solen.eu.org/2022/06/23/beizhu/</id>
     <published>2022-06-22T20:00:05.000Z</published>
     <updated>2022-06-23T17:57:51.373Z</updated>
     
@@ -95,17 +95,17 @@
     
     
     
-    <category term="Hexo" scheme="https://www.solen.ml/categories/Hexo/"/>
+    <category term="Hexo" scheme="https://www.solen.eu.org/categories/Hexo/"/>
     
     
-    <category term="blog" scheme="https://www.solen.ml/tags/blog/"/>
+    <category term="blog" scheme="https://www.solen.eu.org/tags/blog/"/>
     
   </entry>
   
   <entry>
     <title>909090</title>
-    <link href="https://www.solen.ml/2022/06/23/909090/"/>
-    <id>https://www.solen.ml/2022/06/23/909090/</id>
+    <link href="https://www.solen.eu.org/2022/06/23/909090/"/>
+    <id>https://www.solen.eu.org/2022/06/23/909090/</id>
     <published>2022-06-22T18:25:14.000Z</published>
     <updated>2022-06-23T18:25:14.000Z</updated>
     
@@ -121,8 +121,8 @@
   
   <entry>
     <title>9090</title>
-    <link href="https://www.solen.ml/2022/06/23/9090/"/>
-    <id>https://www.solen.ml/2022/06/23/9090/</id>
+    <link href="https://www.solen.eu.org/2022/06/23/9090/"/>
+    <id>https://www.solen.eu.org/2022/06/23/9090/</id>
     <published>2022-06-22T16:49:22.000Z</published>
     <updated>2022-06-22T20:06:57.685Z</updated>
     
@@ -133,17 +133,17 @@
     
     
     
-    <category term="photo" scheme="https://www.solen.ml/categories/photo/"/>
+    <category term="photo" scheme="https://www.solen.eu.org/categories/photo/"/>
     
     
-    <category term="标签" scheme="https://www.solen.ml/tags/%E6%A0%87%E7%AD%BE/"/>
+    <category term="标签" scheme="https://www.solen.eu.org/tags/%E6%A0%87%E7%AD%BE/"/>
     
   </entry>
   
   <entry>
     <title>2990</title>
-    <link href="https://www.solen.ml/2022/06/23/2990/"/>
-    <id>https://www.solen.ml/2022/06/23/2990/</id>
+    <link href="https://www.solen.eu.org/2022/06/23/2990/"/>
+    <id>https://www.solen.eu.org/2022/06/23/2990/</id>
     <published>2022-06-22T16:02:27.000Z</published>
     <updated>2022-06-22T20:05:44.262Z</updated>
     
@@ -154,17 +154,17 @@
     
     
     
-    <category term="photo" scheme="https://www.solen.ml/categories/photo/"/>
+    <category term="photo" scheme="https://www.solen.eu.org/categories/photo/"/>
     
     
-    <category term="标签 新的标签 标签测试 标签1" scheme="https://www.solen.ml/tags/%E6%A0%87%E7%AD%BE-%E6%96%B0%E7%9A%84%E6%A0%87%E7%AD%BE-%E6%A0%87%E7%AD%BE%E6%B5%8B%E8%AF%95-%E6%A0%87%E7%AD%BE1/"/>
+    <category term="标签 新的标签 标签测试 标签1" scheme="https://www.solen.eu.org/tags/%E6%A0%87%E7%AD%BE-%E6%96%B0%E7%9A%84%E6%A0%87%E7%AD%BE-%E6%A0%87%E7%AD%BE%E6%B5%8B%E8%AF%95-%E6%A0%87%E7%AD%BE1/"/>
     
   </entry>
   
   <entry>
     <title>100</title>
-    <link href="https://www.solen.ml/2022/06/22/100/"/>
-    <id>https://www.solen.ml/2022/06/22/100/</id>
+    <link href="https://www.solen.eu.org/2022/06/22/100/"/>
+    <id>https://www.solen.eu.org/2022/06/22/100/</id>
     <published>2022-06-22T15:57:14.000Z</published>
     <updated>2022-06-22T20:07:18.515Z</updated>
     
@@ -175,17 +175,17 @@
     
     
     
-    <category term="photo1" scheme="https://www.solen.ml/categories/photo1/"/>
+    <category term="photo1" scheme="https://www.solen.eu.org/categories/photo1/"/>
     
     
-    <category term="标签" scheme="https://www.solen.ml/tags/%E6%A0%87%E7%AD%BE/"/>
+    <category term="标签" scheme="https://www.solen.eu.org/tags/%E6%A0%87%E7%AD%BE/"/>
     
   </entry>
   
   <entry>
     <title>4</title>
-    <link href="https://www.solen.ml/2022/06/22/4/"/>
-    <id>https://www.solen.ml/2022/06/22/4/</id>
+    <link href="https://www.solen.eu.org/2022/06/22/4/"/>
+    <id>https://www.solen.eu.org/2022/06/22/4/</id>
     <published>2022-06-22T11:21:06.000Z</published>
     <updated>2022-06-22T11:21:06.140Z</updated>
     
@@ -201,8 +201,8 @@
   
   <entry>
     <title>3</title>
-    <link href="https://www.solen.ml/2022/06/22/3/"/>
-    <id>https://www.solen.ml/2022/06/22/3/</id>
+    <link href="https://www.solen.eu.org/2022/06/22/3/"/>
+    <id>https://www.solen.eu.org/2022/06/22/3/</id>
     <published>2022-06-22T11:21:02.000Z</published>
     <updated>2022-06-27T17:40:53.521Z</updated>
     
@@ -213,17 +213,17 @@
     
     
     
-    <category term="photo" scheme="https://www.solen.ml/categories/photo/"/>
+    <category term="photo" scheme="https://www.solen.eu.org/categories/photo/"/>
     
     
-    <category term="标签测试" scheme="https://www.solen.ml/tags/%E6%A0%87%E7%AD%BE%E6%B5%8B%E8%AF%95/"/>
+    <category term="标签测试" scheme="https://www.solen.eu.org/tags/%E6%A0%87%E7%AD%BE%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
   <entry>
     <title>2</title>
-    <link href="https://www.solen.ml/2022/06/22/2/"/>
-    <id>https://www.solen.ml/2022/06/22/2/</id>
+    <link href="https://www.solen.eu.org/2022/06/22/2/"/>
+    <id>https://www.solen.eu.org/2022/06/22/2/</id>
     <published>2022-06-22T11:20:57.000Z</published>
     <updated>2022-06-27T17:40:59.888Z</updated>
     
@@ -239,8 +239,8 @@
   
   <entry>
     <title>黑马程序员CSS笔记</title>
-    <link href="https://www.solen.ml/2022/06/22/heima_css_note/"/>
-    <id>https://www.solen.ml/2022/06/22/heima_css_note/</id>
+    <link href="https://www.solen.eu.org/2022/06/22/heima_css_note/"/>
+    <id>https://www.solen.eu.org/2022/06/22/heima_css_note/</id>
     <published>2022-06-22T11:20:46.000Z</published>
     <updated>2022-06-27T18:51:11.823Z</updated>
     
@@ -251,17 +251,17 @@
     
     
     
-    <category term="Front-end" scheme="https://www.solen.ml/categories/Front-end/"/>
+    <category term="Front-end" scheme="https://www.solen.eu.org/categories/Front-end/"/>
     
     
-    <category term="CSS" scheme="https://www.solen.ml/tags/CSS/"/>
+    <category term="CSS" scheme="https://www.solen.eu.org/tags/CSS/"/>
     
   </entry>
   
   <entry>
     <title>jiujiujiu</title>
-    <link href="https://www.solen.ml/2022/06/22/jiujiujiu/"/>
-    <id>https://www.solen.ml/2022/06/22/jiujiujiu/</id>
+    <link href="https://www.solen.eu.org/2022/06/22/jiujiujiu/"/>
+    <id>https://www.solen.eu.org/2022/06/22/jiujiujiu/</id>
     <published>2022-06-22T09:49:48.000Z</published>
     <updated>2022-06-22T09:52:04.281Z</updated>
     
@@ -272,17 +272,17 @@
     
     
     
-    <category term="xindefenlei" scheme="https://www.solen.ml/categories/xindefenlei/"/>
+    <category term="xindefenlei" scheme="https://www.solen.eu.org/categories/xindefenlei/"/>
     
     
-    <category term="xinde biaoqian" scheme="https://www.solen.ml/tags/xinde-biaoqian/"/>
+    <category term="xinde biaoqian" scheme="https://www.solen.eu.org/tags/xinde-biaoqian/"/>
     
   </entry>
   
   <entry>
     <title>mmama</title>
-    <link href="https://www.solen.ml/2022/06/22/mmama/"/>
-    <id>https://www.solen.ml/2022/06/22/mmama/</id>
+    <link href="https://www.solen.eu.org/2022/06/22/mmama/"/>
+    <id>https://www.solen.eu.org/2022/06/22/mmama/</id>
     <published>2022-06-21T18:17:31.000Z</published>
     <updated>2022-06-21T18:20:42.812Z</updated>
     
@@ -298,8 +298,8 @@
   
   <entry>
     <title>zhelihaomei</title>
-    <link href="https://www.solen.ml/2022/06/22/zhelihaomei/"/>
-    <id>https://www.solen.ml/2022/06/22/zhelihaomei/</id>
+    <link href="https://www.solen.eu.org/2022/06/22/zhelihaomei/"/>
+    <id>https://www.solen.eu.org/2022/06/22/zhelihaomei/</id>
     <published>2022-06-21T18:10:08.000Z</published>
     <updated>2022-06-21T18:10:08.483Z</updated>
     
@@ -315,23 +315,23 @@
   
   <entry>
     <title>myphoto</title>
-    <link href="https://www.solen.ml/2022/06/22/myphoto/"/>
-    <id>https://www.solen.ml/2022/06/22/myphoto/</id>
+    <link href="https://www.solen.eu.org/2022/06/22/myphoto/"/>
+    <id>https://www.solen.eu.org/2022/06/22/myphoto/</id>
     <published>2022-06-21T16:47:28.269Z</published>
     <updated>2022-06-21T16:47:28.269Z</updated>
     
     
     
     
-    <category term="photo" scheme="https://www.solen.ml/categories/photo/"/>
+    <category term="photo" scheme="https://www.solen.eu.org/categories/photo/"/>
     
     
   </entry>
   
   <entry>
     <title>hhahai</title>
-    <link href="https://www.solen.ml/2022/06/22/hhahai/"/>
-    <id>https://www.solen.ml/2022/06/22/hhahai/</id>
+    <link href="https://www.solen.eu.org/2022/06/22/hhahai/"/>
+    <id>https://www.solen.eu.org/2022/06/22/hhahai/</id>
     <published>2022-06-21T16:42:18.000Z</published>
     <updated>2022-06-21T16:42:18.412Z</updated>
     
@@ -343,42 +343,42 @@
   
   <entry>
     <title>s</title>
-    <link href="https://www.solen.ml/2022/06/22/s/"/>
-    <id>https://www.solen.ml/2022/06/22/s/</id>
+    <link href="https://www.solen.eu.org/2022/06/22/s/"/>
+    <id>https://www.solen.eu.org/2022/06/22/s/</id>
     <published>2022-06-21T16:19:11.000Z</published>
     <updated>2022-06-21T16:21:09.115Z</updated>
     
     
     
     
-    <category term="文件" scheme="https://www.solen.ml/categories/%E6%96%87%E4%BB%B6/"/>
+    <category term="文件" scheme="https://www.solen.eu.org/categories/%E6%96%87%E4%BB%B6/"/>
     
     
-    <category term="标签测试" scheme="https://www.solen.ml/tags/%E6%A0%87%E7%AD%BE%E6%B5%8B%E8%AF%95/"/>
+    <category term="标签测试" scheme="https://www.solen.eu.org/tags/%E6%A0%87%E7%AD%BE%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
   <entry>
     <title>test</title>
-    <link href="https://www.solen.ml/2022/06/22/test/"/>
-    <id>https://www.solen.ml/2022/06/22/test/</id>
+    <link href="https://www.solen.eu.org/2022/06/22/test/"/>
+    <id>https://www.solen.eu.org/2022/06/22/test/</id>
     <published>2022-06-21T16:13:37.000Z</published>
     <updated>2022-06-21T16:16:43.947Z</updated>
     
     
     
     
-    <category term="xinde" scheme="https://www.solen.ml/categories/xinde/"/>
+    <category term="xinde" scheme="https://www.solen.eu.org/categories/xinde/"/>
     
     
-    <category term="biaqoa" scheme="https://www.solen.ml/tags/biaqoa/"/>
+    <category term="biaqoa" scheme="https://www.solen.eu.org/tags/biaqoa/"/>
     
   </entry>
   
   <entry>
     <title>test article</title>
-    <link href="https://www.solen.ml/2022/06/22/test-article/"/>
-    <id>https://www.solen.ml/2022/06/22/test-article/</id>
+    <link href="https://www.solen.eu.org/2022/06/22/test-article/"/>
+    <id>https://www.solen.eu.org/2022/06/22/test-article/</id>
     <published>2022-06-21T16:09:01.000Z</published>
     <updated>2022-06-21T16:09:01.160Z</updated>
     
