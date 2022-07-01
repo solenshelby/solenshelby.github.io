@@ -6110,7 +6110,7 @@ body.no-sidebar .sidebar {
 
 .bar.bar-footer {
   position: relative;
-  background-color: #fff;
+  background-color: #fafafa;
   bottom: -15px;
 }
 
@@ -6123,7 +6123,7 @@ body.no-sidebar .sidebar {
   left: -15px;
   border-top: 1px solid #f6f6f6;
   border-bottom: 1px solid #fff;
-  background-color: #fff;
+  background-color: #fafafa;
 }
 
 .bar .bar-inner {
