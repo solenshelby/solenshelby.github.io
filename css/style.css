@@ -373,7 +373,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family:  serif, inherit;
+  font-family:  sans-serif,serif, inherit;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -3260,7 +3260,7 @@ body {
 
 body {
   padding-right: 0 !important;
-  font-family:    serif, "PingHei","PingFang SC",Helvetica Neue,"Work Sans","Hiragino Sans GB","Microsoft YaHei",SimSun,sans-serif;
+  font-family:    sans-serif,serif, "PingHei","PingFang SC",Helvetica Neue,"Work Sans","Hiragino Sans GB","Microsoft YaHei",SimSun,sans-serif;
   font-size: 14px;
   line-height: 1.57143;
   color: #333333;
@@ -7034,7 +7034,7 @@ body.okayNav-loaded {
   box-sizing: border-box;
   padding: 12px 28px 12px 20px;
   border-bottom: 1px solid #e2e2e2;
-  font-family:  serif, "Microsoft Yahei Light","Microsoft Yahei",Helvetica,Arial,sans-serif;
+  font-family:  sans-serif,serif, "Microsoft Yahei Light","Microsoft Yahei",Helvetica,Arial,sans-serif;
 }
 
 .ins-close {
