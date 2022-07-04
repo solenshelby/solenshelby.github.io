@@ -6110,20 +6110,21 @@ body.no-sidebar .sidebar {
 
 .bar.bar-footer {
   position: relative;
-  background-color: #fafafa;
-  bottom: -15px;
+  background-color:rgba(249, 249, 249, .7);
+  bottom: -25px;
 }
 
 .bar.bar-footer:before {
   content: '';
   position: absolute;
-  width: -webkit-calc(100% + 40px);
-  width: calc(100% + 40px);
+  width: -webkit-calc(100% + 30px);
+  width: calc(100% + 30px);
   height: 52px;
-  left: -20px;
+  /* left: -15px; */
+  right: -20px;
   border-top: 1px solid #f6f6f6;
   border-bottom: 1px solid #fff;
-  background-color: #fafafa;
+  background-color: rgba(249, 249, 249, .7);
 }
 
 .bar .bar-inner {
@@ -8539,7 +8540,7 @@ body.okayNav-loaded {
 
   .bar.bar-footer:before {
     width: -webkit-calc(100% + 60px);
-    width: calc(100% + 60px);
+    width: calc(100% + 64px);
     left: -30px;
   }
 }
