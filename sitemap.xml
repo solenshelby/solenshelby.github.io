@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.solen.eu.org/about/index.html</loc>
+    
+    <lastmod>2022-07-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.solen.eu.org/2022/06/21/01-blog/</loc>
     
     <lastmod>2022-07-04</lastmod>
@@ -120,15 +129,6 @@
   
   <url>
     <loc>https://www.solen.eu.org/categories/index.html</loc>
-    
-    <lastmod>2022-06-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.solen.eu.org/about/index.html</loc>
     
     <lastmod>2022-06-25</lastmod>
     
@@ -323,6 +323,13 @@
   </url>
   
   <url>
+    <loc>https://www.solen.eu.org/tags/HTML/</loc>
+    <lastmod>2022-07-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.solen.eu.org/tags/CSS/</loc>
     <lastmod>2022-07-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -331,13 +338,6 @@
   
   <url>
     <loc>https://www.solen.eu.org/tags/xinde-biaoqian/</loc>
-    <lastmod>2022-07-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.solen.eu.org/tags/HTML/</loc>
     <lastmod>2022-07-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
